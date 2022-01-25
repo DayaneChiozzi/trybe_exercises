@@ -4,5 +4,6 @@ O que você vai aprender na Trybe:
  - Git
  - HTML
  - CSS
+ - Internet
  
  
