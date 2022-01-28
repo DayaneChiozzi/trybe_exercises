@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML</title>
-    <link rel="stylesheet" type="ext/css" href="style.css">
-
-    <style>
+<style>
         
         h2{ 
             color:green;
@@ -71,22 +62,3 @@
             }
         }
     </style>
-</head>
-<body class="corpo">
-    <H1 width="65px">Exercicios 3.2</H1>
-    <p class="estilo">Qual é a sua cor favorita?</p>
-    <ul>
-        <li id="ama">Amarelo</li>
-        <li id="verm">Vermelho</li>
-        <li id="marr">Marrom</li>
-        <li id="lar">Laranja</li>
-        <li id="ver">Verde</li>
-        <li id="az">Azul</li>
-        <li id="ros">Rosa</li>
-        <li id="rox">Roxo</li>
-        <li id="bra">Branco</li>
-        
-    </ul>
-    
-</body>
-</html>
