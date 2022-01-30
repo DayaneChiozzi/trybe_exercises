@@ -1,0 +1,45 @@
+div:hover {
+    border:solid 3px purple;        
+}
+
+div:nth-child(3) {
+    background-color:steelblue;
+    font-style: italic;
+}
+
+div:nth-child(4) {
+    background-color:teal;
+}  
+
+div:nth-child(5) {
+    background-color:#94ebeb;
+    padding: 15px;
+    padding-left: 2px;
+    font-style: italic;
+    } 
+
+div:nth-child(6) {
+    background-color:rgb(11, 52, 87);
+} 
+
+div:nth-child(7) {
+    background-color:rgb(140, 195, 240);
+    font-style: italic;
+} 
+
+h1, p {
+    font-family: 'Abel', sans-serif; 
+}
+
+p {
+    font-size: 25px;
+}
+
+body {
+    background-color: slategrey;
+    font-family: 'Abel', sans-serif;
+}
+
+h1 {
+    font: bold;
+}
