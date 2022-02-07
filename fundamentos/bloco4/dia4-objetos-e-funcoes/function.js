@@ -1,5 +1,5 @@
 function prinGreeting() {
-    console.log("olá");
+    console.log("Oi");
     // return => retorno dessa função
 }
 
@@ -8,15 +8,17 @@ function prinGreeting() {
 //Adicione seu nome na função.
 
 function printGreeting(name) {
-    console.log("olá", + name + " tudo bem com você?");
+    console.log("Oi", + name + " tudo bem com você?");
 
 }
 
 let primeiroNome = "Dayane";
 printGreeting(primeiroNome);
 
+//
+
 function makeGreeting(name) {
-    return " olá, " + name + " tudo bem com você ?";
+    return " Oi, " + name + " tudo bem com você ?";
 }
 
 console.log(makeGreeting("Vanessa"));
@@ -45,3 +47,6 @@ function canDrive(age) {
 let dayaneDrive = canDrive(32);
 
 console.log(dayaneDrive)
+
+
+
