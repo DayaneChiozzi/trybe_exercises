@@ -51,3 +51,23 @@ let info2 = {
   origem: 'Christmas on Bear Mountain, Dells Four Color Comics #178'
   nota: 'O último MacPatinhas', 'Sim'. 
 };
+
+// exercicios 6 -8
+
+let reader = {
+  name: 'Julia',
+  lastName: 'Pessoa',
+  age: 21,
+  favoriteBooks: [
+    {
+      title: 'O Pior Dia de Todos',
+      author: 'Daniela Kopsch',
+      publishingCompany: 'Tordesilhas',
+    },
+  ],
+};
+
+console.log(reader["favoriteBooks"]);
+
+console.log("O livro favorito de " + reader.name + " " + reader.lastName + " se chama ");
+
