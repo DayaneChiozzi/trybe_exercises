@@ -35,7 +35,6 @@ function dayMonthDez() {
   for (let index = 0; index < dezDaysList.length; index += 1) {
     let day = dezDaysList[index];
     let dayItem = document.createElement("li");
-    console.log(dezDaysList);
 
     if (day === 24 || day === 31) {
       dayItem.className = "day holiday";
