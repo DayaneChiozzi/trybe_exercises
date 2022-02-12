@@ -32,10 +32,11 @@ const dezDaysList = [
 
 function dayMonthDez() {
   let daylist = document.querySelector("#days");
-
-  for (let index = 0; index > dezDaysList.length; index += 1) {
+  for (let index = 0; index < dezDaysList.length; index += 1) {
     let day = dezDaysList[index];
     let dayItem = document.createElement("li");
+    console.log(dezDaysList);
+
     if (day === 24 || day === 31) {
       dayItem.className = "day holiday";
       dayItem.innerHTML = day;
@@ -49,13 +50,12 @@ function dayMonthDez() {
       dayItem.innerHTML = day;
       daylist.appendChild(dayItem);
     } else {
-      dayItem.className = "day";
       dayItem.innerHTML = day;
+      dayItem.className = "day";
       daylist.appendChild(dayItem);
     }
   }
 }
-
 dayMonthDez();
 
 //let dayItem = document.createElement("li"); //criar o list Item que vai representar o dia da nossa lista
