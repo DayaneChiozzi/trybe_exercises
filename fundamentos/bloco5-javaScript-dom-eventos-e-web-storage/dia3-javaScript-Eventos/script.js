@@ -57,6 +57,20 @@ function dayMonthDez() {
 }
 dayMonthDez();
 
+//exercicio 2
+
+function botaoFeriados() {
+  let containerbtn = document.querySelector(".buttons-container"); //trouxe do html a classe(buttons-container)
+  let createbtn = document.createElement("button"); //criado elemento botao.
+  createbtn.id = "btn-holiday"; // incluido na var createbtn(botao) o id btn-holiday
+  createbtn.innerHTML = "Feriado"; //nesse botao, foi incluso o nome Feriado
+  containerbtn.appendChild(createbtn); //para add o elemento criado aplicado funcao appendChild, utilizando
+  //a var containerbtn onde foi trazido a class buttons-container(pai)e colocado o parametro sobre a funcao
+  //creatbtn, elemento botao criado.
+  console.log(containerbtn);
+}
+botaoFeriados();
+
 //let dayItem = document.createElement("li"); //criar o list Item que vai representar o dia da nossa lista
 //let day = dezDaysList[index]; // aonde eu vou armazenar o elemento atual em cada loop
 
