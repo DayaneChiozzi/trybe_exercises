@@ -64,20 +64,21 @@
         <br />
         <form >
           <div class="form-check">
-          <textarea name="" id="" cols="60" rows="5"></textarea>
+            <label class="form-check-label"></label>
+          <textarea class='form-control' name="" id="" cols="60" rows="5"></textarea>
         </div>
           <br />
+        <div class="form-check">
+          <label class="form-check-label" for="datacalendar"></label>
+          <input type="date" class="form-control" name="data" id="datacalendar" />
+        </div>
+        <br />
+        <label class="form-check-label" for="concordancia"></label>
+          <input type="checkbox" class="form-check-input" name="concordancia" />Concordo 1
+          <input type="checkbox" class="form-check-input" name="concordancia" />Concordo 2
         </form>
-        <div class="form-check">
-          <input type="date" />
-        </div>
-        <br />
-        <div class="form-check">
-          <input type="checkbox" name="concordancia" />Concordo 1
-          <input type="checkbox" name="concordancia" />Concordo 2
-        </div>
-
-        <br />
+          <br />
+        <label class="form-check-label"></label>
         <div class="gap-2 col-3 mx-auto">
           <button class="btn btn-primary"type="submit" value="Submit">Enviar</button>
           <button class="btn btn-primary"type="reset" value="Reset">Apagar</button>
