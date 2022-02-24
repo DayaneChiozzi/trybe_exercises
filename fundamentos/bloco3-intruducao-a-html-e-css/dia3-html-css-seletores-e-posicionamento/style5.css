@@ -1,0 +1,57 @@
+ol {
+    background-color: yellow;
+}
+
+.par {
+    color: seagreen
+}
+
+.impar {
+    text-transform: uppercase;
+}
+
+.titulos {
+    color: red;
+}
+
+.titulos_size {
+    font-size: 40px;
+    border: solid 1px black;
+}
+
+li {
+    font-size: 20px;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.language_font {
+    color: darkblue;
+}
+
+.language_background {
+    background-color: hotpink;
+}
+
+
+a:hover {
+    font-weight: bold;
+}
+
+.StackOverflow:hover {
+    color: orange;
+}
+
+.W3Schools:hover {
+    color: green
+}
+
+.MDNWebDocs:hover {
+    color: black;
+}
+
+.DevDocs:hover {
+    color:yellow;
+}

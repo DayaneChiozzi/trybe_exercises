@@ -1,0 +1,65 @@
+
+h2 { 
+    color:green;
+            
+}
+
+body {
+    background-color:cadetblue;
+    font-size: 16px;
+}
+
+h1 {
+    color:orange;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+        ul{
+            background-color: tan;
+            line-height: 40px;
+            font-weight: bold;
+            font-style: oblique; 
+            text-align:left; 
+            font-size: 25px;               
+
+            }
+            .estilo{
+                background-color:rgb(180, 238, 236);
+                text-align: center;                
+            }
+            #ama{
+                background-color: yellow;            
+            }
+            #verm{
+                background-color:red;
+            }
+            #marr{
+                background-color:saddlebrown;
+            }
+            #lar{
+                background-color:darkorange;
+            }
+            #ver{
+                background-color: green;
+            }
+            #az{
+                background-color:dodgerblue;
+            }
+            #ros{
+                background-color:hotpink;
+            }
+            #rox{
+                background-color:indigo;
+            }
+            #bra{
+                background-color: mintcream;
+            }
+            #pre{
+                background-color: black;
+            }
+            p{
+                font-weight: 600;
+                font-size: 3em;
+            }
+        

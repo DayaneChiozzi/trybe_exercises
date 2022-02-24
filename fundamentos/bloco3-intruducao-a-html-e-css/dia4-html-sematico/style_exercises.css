@@ -1,0 +1,16 @@
+body {
+        background-color: slateblue;
+}
+header {
+    background-color: royalblue;
+    text-align: center;
+    border: 2px solid yellow;
+}
+main {
+    border: 2px solid palevioletred;
+    margin-top: 5px;
+    height: 300px;
+}
+.Fatos_article {
+    text-align:center;
+}
