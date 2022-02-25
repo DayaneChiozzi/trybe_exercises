@@ -71,4 +71,34 @@ p strong {
     display: block;
   }
   
+  
 }
+
+
+@media screen and (min-width: 600px) and (max-width: 1000px){
+.card:nth-of-type(2){
+  display: block;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 649px){
+  .card:nth-of-type(3){
+    display: block;
+    
+  }
+}
+
+  @media screen and (min-width: 951px) {
+    .card:nth-of-type(3){
+      display: block;
+
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+.trick{
+  background-color:cadetblue;
+ padding: 10px 10px;
+ border-radius: 4px;
+}
+  }
