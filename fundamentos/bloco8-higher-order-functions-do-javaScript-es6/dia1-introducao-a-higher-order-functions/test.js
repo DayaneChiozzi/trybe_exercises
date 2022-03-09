@@ -16,3 +16,16 @@ const sumFixAmount = (amount) => {
 
 const initialSum = sumFixAmount(15);
 console.log(initialSum(5));
+
+// para fixar
+
+const wakeUp = () => {
+  return 'Acordando!!';
+};
+
+const coffee = () => 'Bora Tomar café!!';
+
+const sleep = () => 'Partiu dormir!!';
+
+const doingThings = (func) => func();
+console.log(doingThings(wakeUp));
