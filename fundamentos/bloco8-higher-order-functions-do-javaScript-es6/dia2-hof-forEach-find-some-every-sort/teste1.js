@@ -12,7 +12,7 @@ const showEmailList = (email) => {
 
 emailListInData.forEach(showEmailList);
 
-// find - para fixar
+// find - para fixar conteudo
 const numbers = [19, 21, 30, 3, 45, 22, 15];
 
 const findDivisibleBy3And5 = numbers.find((number) => {
