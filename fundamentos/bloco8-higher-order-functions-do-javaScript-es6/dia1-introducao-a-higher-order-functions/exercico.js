@@ -32,3 +32,28 @@ const resultSorteio = (numberApostado, checkerNumber) => {
 };
 
 console.log(resultSorteio(5, checkerNumber));
+
+// 3- crie uma hof com 3 parametros
+
+const rightAnswers = ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
+const studentAnswers = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
+let resultRightAnswers = 0;
+
+const checkAnswers = (array1, array2) => {
+  for (let index = 0; index < array1.length; index += 1) {
+    if (array1[index] === array2[index]) {
+      resultRightAnswers += 1;
+    } else if (array2[index] !== 'N.A' && array2[index] !== array1[index]) {
+      resultRightAnswers -= 0.5;
+    }
+  }
+  return resultRightAnswers;
+};
+
+// console.log(checkAnswers(rightAnswers, studentAnswers));
+
+const totalCkeckAnswers = (gabarito, gabaritoStudant, callback) => {
+  return callback(gabarito, gabaritoStudant);
+};
+
+console.log(totalCkeckAnswers(rightAnswers, studentAnswers, checkAnswers));
