@@ -61,20 +61,14 @@ const books = [
   },
 ];
 
-// Adicione o código do exercício aqui:
-// exercicio 1
-// const authoronIn1947 = books.find(
-//   (element) => element.author.birthYear === 1947
-// );
+const authorBook = (element) => {
+  const nameAuthor = element.author.name;
+  if (nameAuthor === 'J. R. R. Tolkien') {
+    return element.name;
+  }
+};
 
-// console.log(authoronIn1947);
-//exercicio 2
+const filterAuthorBook = books.filter(authorBook);
+const nameBookAuthor = filterAuthorBook.map((element) => element.name);
 
-function smallerName() {
-  let nameBook = books.forEach((element) => {
-    element.name.length[0] < element.name.length[1];
-    return nameBook;
-  });
-}
-
-smallerName(nameBook);
+console.log(nameBookAuthor);

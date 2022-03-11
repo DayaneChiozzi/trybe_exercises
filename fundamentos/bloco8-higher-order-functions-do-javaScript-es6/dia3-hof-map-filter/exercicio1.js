@@ -61,20 +61,10 @@ const books = [
   },
 ];
 
-// Adicione o código do exercício aqui:
-// exercicio 1
-// const authoronIn1947 = books.find(
-//   (element) => element.author.birthYear === 1947
-// );
+const expectedResult = (element) => {
+  const resultado = `${element.name} - ${element.genre} - ${element.author.name}`;
+  return resultado;
+};
+const resultMap = books.map(expectedResult);
 
-// console.log(authoronIn1947);
-//exercicio 2
-
-function smallerName() {
-  let nameBook = books.forEach((element) => {
-    element.name.length[0] < element.name.length[1];
-    return nameBook;
-  });
-}
-
-smallerName(nameBook);
+console.log(resultMap);

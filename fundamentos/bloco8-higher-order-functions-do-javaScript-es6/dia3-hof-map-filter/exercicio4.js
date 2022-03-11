@@ -61,20 +61,12 @@ const books = [
   },
 ];
 
-// Adicione o código do exercício aqui:
-// exercicio 1
-// const authoronIn1947 = books.find(
-//   (element) => element.author.birthYear === 1947
-// );
+const orderBook = (element) => {
+  const resultOrderBook = 2022 - element.releaseYear;
+  return resultOrderBook > 60;
+};
 
-// console.log(authoronIn1947);
-//exercicio 2
+const ageBook = books.filter(orderBook);
+const orderAgeBook = ageBook.sort((a, b) => a.releaseYear - b.releaseYear);
 
-function smallerName() {
-  let nameBook = books.forEach((element) => {
-    element.name.length[0] < element.name.length[1];
-    return nameBook;
-  });
-}
-
-smallerName(nameBook);
+console.log(ageBook);

@@ -62,19 +62,17 @@ const books = [
 ];
 
 // Adicione o código do exercício aqui:
-// exercicio 1
-// const authoronIn1947 = books.find(
-//   (element) => element.author.birthYear === 1947
-// );
 
-// console.log(authoronIn1947);
-//exercicio 2
+const idAuthor = (element) => {
+  const resultName = element.author.name;
+  const resultAge = element.releaseYear - element.author.birthYear;
+  return {
+    age: resultAge,
+    author: resultName,
+  };
+};
 
-function smallerName() {
-  let nameBook = books.forEach((element) => {
-    element.name.length[0] < element.name.length[1];
-    return nameBook;
-  });
-}
+const resultMap = books.map(idAuthor);
+const order = resultMap.sort((a, b) => a.age - b.age);
 
-smallerName(nameBook);
+console.log(order);
